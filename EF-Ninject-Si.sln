@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-Ninject-Si", "EF-Ninject-Si\EF-Ninject-Si.csproj", "{0D562DC9-7635-43EB-9179-7F1294D951F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{C0C0375C-62B0-4B77-BC5F-5FC4DD6BA2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{7F8EDA19-6CDA-4FF9-B383-8C1D250DEDA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D562DC9-7635-43EB-9179-7F1294D951F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D562DC9-7635-43EB-9179-7F1294D951F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D562DC9-7635-43EB-9179-7F1294D951F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D562DC9-7635-43EB-9179-7F1294D951F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C0375C-62B0-4B77-BC5F-5FC4DD6BA2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C0375C-62B0-4B77-BC5F-5FC4DD6BA2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C0375C-62B0-4B77-BC5F-5FC4DD6BA2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C0375C-62B0-4B77-BC5F-5FC4DD6BA2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8EDA19-6CDA-4FF9-B383-8C1D250DEDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8EDA19-6CDA-4FF9-B383-8C1D250DEDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8EDA19-6CDA-4FF9-B383-8C1D250DEDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8EDA19-6CDA-4FF9-B383-8C1D250DEDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
