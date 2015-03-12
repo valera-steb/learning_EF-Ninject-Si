@@ -1,0 +1,6 @@
+obj
+/EF-Ninject-Si/bin
+*.suo
+
+/packages/*
+!/packages/repositories.config
