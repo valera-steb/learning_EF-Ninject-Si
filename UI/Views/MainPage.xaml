@@ -3,12 +3,22 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:tk="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit" 
     mc:Ignorable="d"
     d:DesignHeight="300" d:DesignWidth="400"
              DataContext="{Binding RelativeSource={RelativeSource Self}, Path=Vm}">
-
+    
     <StackPanel x:Name="LayoutRoot" Background="White">
-        <TextBlock>Test</TextBlock>
+        <tk:DockPanel>
+            <TextBlock tk:DockPanel.Dock="Right"
+                       VerticalAlignment="Center"
+                       >Язык и тема</TextBlock>
+            
+            <TextBlock TextWrapping="Wrap"                
+                >Панель навигации: вперёд/назад (может повешенное у браузера) + набор ссылок на странички внутри (делать ли закладки/менять ли URL?)</TextBlock>
+
+        </tk:DockPanel>
+        
         
         <TextBlock Text="{Binding MyProperty}" />
         
