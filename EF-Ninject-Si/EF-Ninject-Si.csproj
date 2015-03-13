@@ -20,7 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <SilverlightApplicationList>{C0C0375C-62B0-4B77-BC5F-5FC4DD6BA2CF}|..\UI\UI.csproj|ClientBin|False</SilverlightApplicationList>
+    <SilverlightApplicationList>{C0C0375C-62B0-4B77-BC5F-5FC4DD6BA2CF}|..\UI\UI.csproj|Client\SlBin|False</SilverlightApplicationList>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -146,6 +146,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Client\SlBin\UI.xap" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -167,9 +168,8 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Silverlight.js" />
-    <Content Include="UITestPage.aspx" />
-    <Content Include="UITestPage.html" />
+    <Content Include="Client\Silverlight.js" />
+    <Content Include="Client\UITestPage.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -188,7 +188,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="ClientBin\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

@@ -9,13 +9,18 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
+using UI.ViewModel;
 
 namespace UI
 {
     public partial class MainPage : UserControl
     {
-        public MainPage()
+        public MainPageVm Vm { get; private set; }
+
+        public MainPage(MainPageVm vm)
         {
+            Vm = vm;
+            System.Diagnostics.Debug.WriteLine("Init");
             InitializeComponent();
         }
     }

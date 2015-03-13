@@ -1,0 +1,3 @@
+по поводу ExpressionCommand - по существу есть зависимость от:
+.INotifyPropertyChanged
+.IBindingList - можно основать на 

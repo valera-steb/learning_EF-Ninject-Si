@@ -69,12 +69,23 @@
     <Reference Include="System.Net" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Windows.Browser" />
+    <Reference Include="Telerik.Windows.Controls, Version=2015.1.225.1050, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="Infrastructure\IgniterPart\BindableBase.cs" />
+    <Compile Include="Infrastructure\IgniterPart\CallerMemberNameAttribute.cs" />
+    <Compile Include="Infrastructure\IgniterPart\Core\CommandBase.cs" />
+    <Compile Include="Infrastructure\IgniterPart\Core\DelegateCommandBase.cs" />
+    <Compile Include="Infrastructure\IgniterPart\Core\WeakEvent.cs" />
+    <Compile Include="Infrastructure\IgniterPart\DelegateCommand.cs" />
+    <Compile Include="Infrastructure\IgniterPart\IDisposableCommand.cs" />
+    <Compile Include="Infrastructure\IgniterPart\PropertyChangedEventArgs.cs" />
+    <Compile Include="ViewModel\MainPageVm.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,13 +95,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
-    <Page Include="MainPage.xaml">
+    <Page Include="Views\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Model\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Themes\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,5 +1,7 @@
 obj
+bin
 /EF-Ninject-Si/bin
+/EF-Ninject-Si/Client/SlBin
 *.suo
 
 /packages/*
