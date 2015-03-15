@@ -20,7 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <SilverlightApplicationList>{C0C0375C-62B0-4B77-BC5F-5FC4DD6BA2CF}|..\UI\UI.csproj|Client\SlBin|False</SilverlightApplicationList>
+    <SilverlightApplicationList>{C0C0375C-62B0-4B77-BC5F-5FC4DD6BA2CF}|..\UI\UI.csproj|Client\SlBin|False,{D84C222F-BBA7-4F8D-9F88-F9D04E3CA275}|..\Spec\SilverlightUnitTestsApp\SilverlightUnitTestsApp.csproj|Client\SlBin|False</SilverlightApplicationList>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -146,7 +146,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Client\SlBin\SilverlightUnitTestsApp.xap" />
     <Content Include="Client\SlBin\UI.xap" />
+    <Content Include="Client\SilverlightUnitTestsAppPage.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />

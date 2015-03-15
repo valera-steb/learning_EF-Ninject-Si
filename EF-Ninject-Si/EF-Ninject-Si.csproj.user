@@ -22,6 +22,7 @@
           <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
           <ProjectOutputReferences>
             <Ref Project="{C0C0375C-62B0-4B77-BC5F-5FC4DD6BA2CF}" Folder="Client\SlBin">UI.xap</Ref>
+            <Ref Project="{D84C222F-BBA7-4F8D-9F88-F9D04E3CA275}" Folder="Client\SlBin">SilverlightUnitTestsApp.xap</Ref>
           </ProjectOutputReferences>
         </WebProjectProperties>
       </FlavorProperties>

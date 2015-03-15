@@ -9,10 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{C0C0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{7F8EDA19-6CDA-4FF9-B383-8C1D250DEDA9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{18484350-DC5A-48D0-9E1F-9288E496FC97}"
-	ProjectSection(SolutionItems) = preProject
-		Журнал.txt = Журнал.txt
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UtilsPort", "UtilsPort", "{522EFEFE-9E15-4AF6-AA80-D20DF1AFA1A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spec", "Spec", "{56290303-BA08-4BEA-9573-86E6D76D8A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightUnitTestsApp", "Spec\SilverlightUnitTestsApp\SilverlightUnitTestsApp.csproj", "{D84C222F-BBA7-4F8D-9F88-F9D04E3CA275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgniterPart.SDK", "UtilsPort\IgniterPart.SDK\IgniterPart.SDK.csproj", "{F695784C-2BBA-4488-B291-97DDDDEAC065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgniterPart.TelerikProvider", "UtilsPort\IgniterPart.TelerikProvider\IgniterPart.TelerikProvider.csproj", "{8E5BF9F8-07F8-48E6-86F7-F64663F314B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,8 +37,25 @@ Global
 		{7F8EDA19-6CDA-4FF9-B383-8C1D250DEDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F8EDA19-6CDA-4FF9-B383-8C1D250DEDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F8EDA19-6CDA-4FF9-B383-8C1D250DEDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84C222F-BBA7-4F8D-9F88-F9D04E3CA275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84C222F-BBA7-4F8D-9F88-F9D04E3CA275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84C222F-BBA7-4F8D-9F88-F9D04E3CA275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84C222F-BBA7-4F8D-9F88-F9D04E3CA275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F695784C-2BBA-4488-B291-97DDDDEAC065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F695784C-2BBA-4488-B291-97DDDDEAC065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F695784C-2BBA-4488-B291-97DDDDEAC065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F695784C-2BBA-4488-B291-97DDDDEAC065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E5BF9F8-07F8-48E6-86F7-F64663F314B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5BF9F8-07F8-48E6-86F7-F64663F314B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5BF9F8-07F8-48E6-86F7-F64663F314B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5BF9F8-07F8-48E6-86F7-F64663F314B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F695784C-2BBA-4488-B291-97DDDDEAC065} = {522EFEFE-9E15-4AF6-AA80-D20DF1AFA1A2}
+		{8E5BF9F8-07F8-48E6-86F7-F64663F314B3} = {522EFEFE-9E15-4AF6-AA80-D20DF1AFA1A2}
+		{D84C222F-BBA7-4F8D-9F88-F9D04E3CA275} = {56290303-BA08-4BEA-9573-86E6D76D8A97}
 	EndGlobalSection
 EndGlobal
