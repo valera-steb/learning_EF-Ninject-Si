@@ -1,5 +1,5 @@
 using System;
-using System.Linq.Expressions;
+//using System.Linq.Expressions;
 using System.Windows;
 
 namespace Igniter.Core
@@ -8,7 +8,7 @@ namespace Igniter.Core
     {
         private readonly DependencyProperty _property;
 
-        public DependencyPropertyWatcher(Expression ownerExpression, DependencyProperty property)
+        public DependencyPropertyWatcher(System.Linq.Expressions.Expression ownerExpression, DependencyProperty property)
             : base(ownerExpression)
         {
             _property = property;

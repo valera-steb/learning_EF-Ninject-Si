@@ -88,11 +88,17 @@
     <Compile Include="DelegateCommand.cs" />
     <Compile Include="Core\ExpressionUtil.cs" />
     <Compile Include="Core\IDisposableCommand.cs" />
+    <Compile Include="DependencyObjectExtensions.cs" />
     <Compile Include="ExpressionCommand.cs" />
     <Compile Include="NotifyProperyChangedExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Core\PropertyChangedEventArgs.cs" />
     <Compile Include="ReactiveMock\AnonymousDisposable.cs" />
+    <Compile Include="ReactiveMock\SerialDisposable.cs" />
+    <Compile Include="Reflection\Helper.cs" />
+    <Compile Include="SystemMock\BindingList\IBindingList.cs" />
+    <Compile Include="SystemMock\BindingList\ListChangedEventArgs.cs" />
+    <Compile Include="SystemMock\BindingList\ListChangedType.cs" />
     <Compile Include="SystemMock\IPropertyChangedEventManager.cs" />
     <Compile Include="SystemMock\IWeakEventListener.cs" />
     <Compile Include="SystemMock\ReferenceEqualityComparer.cs" />

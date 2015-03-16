@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq.Expressions;
 using System.Windows;
-using Igniter.SystemMock;
+using IgniterPart.SDK.SystemMock.BindingList;
 
 namespace Igniter.Core
 {

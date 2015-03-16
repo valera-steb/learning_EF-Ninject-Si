@@ -2,7 +2,6 @@ using System;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Controls.Primitives;
-using Telerik.Windows;
 using Expression = System.Linq.Expressions.Expression;
 
 namespace Igniter.Core
